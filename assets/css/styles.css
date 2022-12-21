@@ -617,6 +617,9 @@ img {
 .skills__c{width: 60%;}
 .skills__photoshop{width: 70%;}
 .skills__xd{width: 80%;}
+.skills__python{width: 70%;}
+.skills__sql{width: 40%;}
+.skills__r{width: 60%;}
 
 .skills__close .skills__list{
   height: 0;
