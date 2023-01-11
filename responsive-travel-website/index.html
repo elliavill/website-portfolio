@@ -48,7 +48,7 @@
 </nav>
 
 		<!-- Header Discovering China -->
-		<section class="row header">
+		<section class="row header" id="top">
 		 <div class="col-sm-8">
 			<h1>Discovering China</h1>
 			<button type="button" class="button"><span>Explore Now</span></button>
@@ -262,5 +262,13 @@
 		  </div>
       </div>
    </footer>
+
+   <script>
+      function top() {
+       document.getElementById( 'top' ).scrollIntoView();    
+      };
+   
+      top();
+   </script>
 </body>
 </html>

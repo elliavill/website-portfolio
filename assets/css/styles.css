@@ -533,7 +533,7 @@ img {
   margin-bottom: var(--mb-2-5);
   font-size: .9rem;
 }
-.abput_info-title{
+.about_info-title{
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
 }
@@ -555,6 +555,11 @@ img {
   justify-content: center;
 }
 
+.__info-title {
+    display: block;
+    text-align: left;
+    margin-top: var(--mb-3);
+}
 /*==================== SKILLS ====================*/
 .skills__container{
   row-gap: 0;
