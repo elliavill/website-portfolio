@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+<!-- stylesheets -->
+<link href="https://fonts.googleapis.com/css?family=Lora&family=Playfair+Display:wght@400;800&display=swap" rel="stylesheet">
+<link href="includes/css/bootstrap.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism.min.css" />
+<link rel="stylesheet" href="includes/css/main.css">
+<link href="includes/css/myStyles.css" rel="stylesheet" />
+
+<!-- Font Awesome -->
+<script defer src="includes/fontawesome-free-6.0.0-web/js/all.js"></script> <!--load all styles -->
+
+<!-- jQuery & JavaScript -->
+<script src="includes/js/jquery-3.2.1.min.js"></script>
+<script src="includes/js/popper.min.js"></script>
+<script src="includes/js/bootstrap.bundle.min.js"></script>
+<script src="includes/js/common-scripts.js"></script>
+<script src="includes/js/copy-clipboard.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+<title>Style Guide | Aurel Villyani</title>
+</head>
+
+<body data-spy="scroll" data-targe=".list-group" data-offset="75">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3 sidebar bg-gradient pt-5">
+      <h6 class="text-light">Components</h6>
+      <div id="list-example" class="list-group"> <a class="list-group-item list-group-item-action" href="#colors">Colors</a> <a class="list-group-item list-group-item-action" href="#typography">Typography</a> <a class="list-group-item list-group-item-action" href="#lists">Lists</a> <a class="list-group-item list-group-item-action" href="#blockquote">Blockquote</a> <a class="list-group-item list-group-item-action" href="#links">Links</a> <a class="list-group-item list-group-item-action" href="#checkboxes">Checkboxes</a> <a class="list-group-item list-group-item-action" href="#forms">Forms</a> <a class="list-group-item list-group-item-action" href="#dropdowns">Dropdowns</a> <a class="list-group-item list-group-item-action" href="#buttons">Buttons</a> <a class="list-group-item list-group-item-action" href="#cards">Cards</a> </div>
+    </div>
+    <div class="col-md-7 offset-md-1 pt-5">
+      <div class="row mb-5">
+        <div class="col-md-12">
+          <h1>Aurel Villyani - Interactive Style Guide</h1>
+          <p class="mb-5"> Below is a collection of reusable components, guided by clear standards, that can be assembled together to build your website. Components will provide examples and HTML code to copy to your project. Enjoy! </p>
+          <hr>
+        </div>
+      </div>
+    
+      <!-- colors -->
+      <div class="row mb-5" id="colors">
+        <div class="col-md-12">
+          <h3 class="title">Colors</h3>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">Primary</div>
+            <div class="card-body text-white color-card bg-primary"> <span>#C23B22</span>
+              <button type="button" class="btn-copy js-tooltip js-copy btn-top" data-toggle="tooltip" data-placement="bottom" data-copy="#C23B22" title="Copy to clipboard">Copy</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">Secondary</div>
+            <div class="card-body color-card bg-secondary"> <span>#FFF8E7</span>
+              <button type="button" class="btn-copy js-tooltip js-copy btn-top" data-toggle="tooltip" data-placement="bottom" data-copy="#FFF8E7" title="Copy to clipboard">Copy</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-5">
+          <div class="card">
+            <div class="card-header">Alternate</div>
+            <div class="card-body color-card bg-alternate"> <span>#EADCBB</span>
+              <button type="button" class="btn-copy js-tooltip js-copy btn-top" data-toggle="tooltip" data-placement="bottom" data-copy="#EADCBB" title="Copy to clipboard">Copy</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-header">Gradient</div>
+            <div class="card-body color-card bg-gradient text-light p-5"> <span>bg-gradient</span>
+              <button type="button" class="btn-copy js-tooltip js-copy btn-top" data-toggle="tooltip" data-placement="bottom" data-copy="bg-gradient" title="Copy to clipboard">Copy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- typography -->
+      <div class="row mb-5 " id="typography">
+        <div class="col-md-12">
+          <h3 class="title">Typography</h3>
+          <p><strong>Font Family</strong> - <a href="https://fonts.google.com/specimen/Lora">Lora</a></p>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Heading</th>
+                <th>Example</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><pre><code class="language-html">&lt;h1&gt;&lt;/h1&gt;</code></pre></td>
+                <td><h1>h1. Bootstrap heading</h1></td>
+              </tr>
+              <tr>
+                <td><pre><code class="language-html">&lt;h2&gt;&lt;/h2&gt;</code></pre></td>
+                <td><h2>h2. Bootstrap heading</h2></td>
+              </tr>
+              <tr>
+                <td><pre><code class="language-html">&lt;h3&gt;&lt;/h3&gt;</code></pre></td>
+                <td><h3>h3. Bootstrap heading</h3></td>
+              </tr>
+              <tr>
+                <td><pre><code class="language-html">&lt;h4&gt;&lt;/h4&gt;</code></pre></td>
+                <td><h4>h4. Bootstrap heading</h4></td>
+              </tr>
+              <tr>
+                <td><pre><code class="language-html">&lt;h5&gt;&lt;/h5&gt;</code></pre></td>
+                <td><h5>h5. Bootstrap heading</h5></td>
+              </tr>
+              <tr>
+                <td><pre><code class="language-html">&lt;h6&gt;&lt;/h6&gt;</code></pre></td>
+                <td><h6>h6. Bootstrap heading</h6></td>
+              </tr>
+              <tr>
+                <td><pre><code class="language-html">&lt;p&gt;&lt;/p&gt;</code></pre></td>
+                <td><p>Paragraph this is my paragraph text. This is good for long bodies of text.</p></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+      <!-- Lists -->
+      <div class="row mb-5" id="lists">
+        <div class="col-md-12">
+          <h3 class="title">Lists</h3>
+        </div>
+        <div class="col-md-12">
+          <div class="code-preview">
+            <div class="row">
+              <div class="col-lg-4 col-md-4">
+                <div class="mb-3"> <small class="text-uppercase font-weight-bold">Ordered</small> </div>
+                <div>
+                  <ol class="list-group list-group-numbered list-group-flush">
+                    <li class="list-group-item">Coffee</li>
+                    <li class="list-group-item">Tea</li>
+                    <li class="list-group-item">Milk</li>
+                  </ol>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <div class="mb-3"> <small class="text-uppercase font-weight-bold">Unordered</small> </div>
+                <div>
+                  <div class="list-group list-group-flush">
+                    <a href="#" class="list-group-item">Coffee</a>
+                    <a href="#" class="list-group-item">Tea</a>
+                    <a href="#" class="list-group-item">Milk</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- blockquote  -->
+      <div class="row mb-5" id="blockquote">
+        <div class="col-md-12">
+          <h3 class="title">Blockquote</h3>
+            <div class="row code-preview">
+              <figure>
+                <blockquote cite="https://www.huxley.net/bnw/four.html">
+                    <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+                </blockquote>
+                <figcaption>—Aldous Huxley, <cite>Brave New World</cite></figcaption>
+            </figure>
+            </div>
+        </div>
+      </div>
+      
+      <!-- Links -->
+      <div class="row mb-5" id="links">
+        <div class="col-md-12">
+          <h3 class="title">Links</h3>
+        </div>
+        <div class="col-md-12">
+          <div class="code-preview">
+            <div class="mb-3"> <small class="text-uppercase font-weight-bold">Static, Hover, and Clicked</small> </div>
+            <p>This is my <a href="#">inline link</a> that can be clicked.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- checkboxes -->
+      <div class="row mb-5" id="checkboxes">
+        <div class="col-md-12">
+          <h3 class="title">Checkboxes</h3>
+        </div>
+        <div class="col-md-12">
+          <div class="code-preview">
+            <div class="row">
+              <div class="col-lg-5 col-md-6">
+                <div class="mb-3"> <small class="text-uppercase font-weight-bold">Checkboxes</small> </div>
+                <div class="form-check">
+                  <input type="checkbox" id="check1" checked>
+                  <label for="check1"></label> Checked
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" id="check2">
+                  <label for="check2"></label> Unchecked
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-6">
+                <div class="mb-3"> <small class="text-uppercase font-weight-bold">Radios</small> </div>
+                <div class="form-check">
+                  <input type="radio" id="radio1" name="radio-group" checked>
+                  <label for="radio1">Checked</label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" id="radio2" name="radio-group">
+                  <label for="radio2">Unchecked</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- forms -->
+      <div class="row mb-5" id="forms">
+        <div class="col-md-12">
+          <h3 class="title">Forms</h3>
+          <div class="code-preview">
+              <form id="contact" method="post"> 
+                <h3>Subscribe to Our Newsletter</h3>
+                <fieldset>
+                  <input placeholder="Name" type="text" required autofocus>
+                </fieldset>
+                <fieldset>
+                  <input placeholder="Email Address" type="email" required>
+                </fieldset>
+                <fieldset>
+                  <textarea placeholder="Type your message here...." required></textarea>
+                </fieldset>
+                <fieldset>
+                  <button name="submit" type="submit" class="button2" data-submit="...Sending">Submit</button>
+                </fieldset>
+              </form>
+          </div>
+        </div>
+      </div>
+      
+      <!-- dropdowns  -->
+      <div class="row mb-5" id="dropdowns">
+        <div class="col-md-12">
+          <h3 class="title">Dropdowns</h3>
+          <div class="code-preview">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
+                  Dropdown button
+              </button>
+              <ul class="dropdown-menu" aria-label="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <!-- ** If it's needed in the future **
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>-->
+                  </ul>
+            </div>
+          </div>
+      </div>
+      
+      <!-- buttons -->
+      <div class="row mb-5" id="buttons">
+        <div class="col-md-12">
+          <h3 class="title">Buttons</h3>
+        </div>
+        <div class="col-md-12">
+          <div class="code-preview">
+            <h6>Default Buttons</h6>
+            <button type="button" class="button"><span>Primary</span></button>
+            <button type="button" class="button2">Secondary</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Cards -->
+      <div class="row mb-5" id="cards">
+        <div class="col-md-12">
+          <h3 class="title">Cards</h3>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1477862096227-3a1bb3b08330?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Title</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt repellendus praesentium quae!</p>
+              <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+              <a href="" class="btn btn-outline-success btn-sm"><i class="far fa-heart"></i></a>
+            </div>
+           </div>
+          </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img class="card-img-top" src="images/images01.jpeg" alt="China">
+            <div class="card-body">
+              <h5 class="card-title">Forbidden City</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Beijing, China</h6>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+              <a href="#" class="card-link">Read More</a>
+            </div>
+           </div>
+       </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+</body>
+</html>

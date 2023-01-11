@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/* Mobile first styles */
+.title {
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: calc(100vh);
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.sidebar li {
+  list-style: none;
+  margin: 10px 0;
+  padding-left: 5px;
+  border-left: 4px;
+  transition: ease .3s all;
+}
+
+.sidebar .list-group-item {
+  border: none;
+  background: transparent;
+  border-radius: 0;
+  padding: 0 0 0 10px;
+  margin: 5px;
+  color: #FFFFFF;
+}
+
+.sidebar .list-group-item.active {
+  border-left: 4px solid #FDD4BB;
+  color: #FFFFFF;
+}
+
+.btn-top {
+	top: 5px;
+}
+.btn-copy {
+  position: absolute;
+  right: 1.25rem;
+  z-index: 10;
+  display: block;
+  padding: .25rem .5rem;
+  font-size: 75%;
+  border: 0;
+  border-radius: .25rem;
+}
+
+.btn-copy:hover {
+  color: #fff;
+  background-color: #027DE7;
+}
+
+.color-card {
+  position: relative;
+}
+
+
+.code-example {
+  background-color: #e5f5ff;
+  padding: 20px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  position: relative;
+}
+
+.code-example .btn-copy {
+  color: #555555;
+}
+
+.code-example .btn-copy:hover {
+  color: #fff;
+}
+
+.code-preview {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+:not(pre)>code[class*=language-],
+pre[class*=language-] {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+#typography .table td {
+  vertical-align: middle;
+}
+
+/* Extra small devices (portrait phones, 576px and higher)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (min-width: 576px) {}
+
+/* Small devices (landscape phones, 768px and higher)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (min-width: 768px) {}
+
+/* Medium devices (tablets, 992px and higher)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (min-width: 992px) {}
+
+/* Large devices (desktops, 1200px and higher)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media (min-width: 1200px) {}
+
+/* Extra large devices (large desktops)
+   No media query since the extra-large breakpoint has no upper bound on its width */
